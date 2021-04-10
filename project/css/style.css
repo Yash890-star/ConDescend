@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FBF2D5;
+    scroll-behavior: smooth;
+    
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./img/pexels-luis-quintero-2774566.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+    
+}
+.first {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.name{
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    text-transform: uppercase;
+}
+.one {
+    background-color: #7FA99B;
+    border-radius: 200px;
+    color:#FBF2D5;
+    transition: background-color 0.2s, color 0.2s;
+    margin-right: 15px;
+}
+
+.one:hover,
+.one:active{
+    background-color: #3a564c;
+}
+
+.two {
+    border: 1px solid #7FA99B;
+    border-radius: 200px;
+    color:#7FA99B;
+    margin-left: 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.two:hover,
+.two:active{
+    background-color:#3a564c;
+    color: #FBF2D5;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+    border: 3px solid #7FA99B;
+    display: inline-block;
+}
+
+.navi {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    transition: border-bottom 0.9s;
+}
+
+.navi li a:link,
+.navi li a:visited {
+    text-decoration: none;
+    color: #FBF2D5;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;  
+    border-bottom: 0px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navi li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-left: 25px;
+}
+
+.navi li a:hover, 
+.navi li a:active{
+    border-bottom: 2px solid #7FA99B;
+}
+
+.locations{
+    margin-top: 100px;
+    color: #000;
+    margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+h2:after{
+    display: block;
+    background-color: #7FA99B;
+    height: 2px;
+    width: 100px;
+    content: '  ';
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.hyd {
+    height: 300px;
+    width: 375px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.icons {
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    
+    
+}
+
+.lin{
+    display: inline-block;
+    padding-top: 0px;
+    font-size: 25px;
+    
+}
+
+footer {
+    background-color: #333;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+.socials{
+    list-style: none;
+    float: left;
+    display: inline-block;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    color:#808080 ;
+}
+.footicons{
+    list-style: none;
+    float: right;
+}
+
+.footicons img{
+    height: 30px;
+    width: auto;
+}
+.socials li,
+.footicons li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.jojo{
+    filter: brightness(0) invert(0.5);
+}
+p{
+    text-align: center;
+    margin-top: 90px;
+    color: #808080;
+}
+blockquote{
+    padding: 2%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 400%;
+}
+
+cite{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.custrev{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('./img/pexels-pixabay-33129.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.black::after{
+    display: block;
+    background-color: #7FA99B;
+    height: 2px;
+    width: 100px;
+    content: '  ';
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.blacc{
+    color: #fff;
+}

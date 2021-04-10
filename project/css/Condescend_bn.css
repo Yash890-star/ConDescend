@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.726)) , url("./img/pexels-donald-tong-109669.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+      
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FBF2D5;
+    
+    
+}
+
+h1 {
+
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+h1:after{
+    display: block;
+    background-color: #FBF2D5;
+    height: 2px;
+    width: 100px;
+    content: '  ';
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h2{
+    
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.eng{
+    height: 300px;
+    width: auto;
+    
+}
+.row {
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: inline-block;
+    justify-content: center;
+}
+.hi{
+    padding-top: 1px;
+ }

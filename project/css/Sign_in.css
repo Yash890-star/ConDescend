@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FBF2D5;
+    margin: 0 auto;
+    
+    
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(./img/fa.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.first{
+    margin-top:-15%;
+    float: left;
+    margin-left:50%;
+    width: 650px;
+    height: 600px;
+   
+    
+
+}
+
+.con{
+    margin-top: 90px;
+    margin-left:125px;
+    text-decoration: none;
+    color: #FBF2D5;
+    font-size: 35px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color:transparent;
+    border: 3px solid #FFFFFF;
+    padding: 0 12px; 
+}
+
+h3{
+    margin-left:114px;
+    margin-top: 20px;
+}
+h2{
+    
+    
+    font-size:29px;
+    
+}
+.logo {
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+    border: 3px solid #7FA99B;
+}
+
+.navi {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    transition: border-bottom 0.9s;
+    margin-right:40px;
+}
+
+.navi li a:link,
+.navi li a:visited {
+    text-decoration: none;
+    color: #FBF2D5;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;  
+    border-bottom: 0px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navi li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-left: 35px;
+}
+
+.navi li a:hover, 
+.navi li a:active{
+    border-bottom: 2px solid #7FA99B;
+}
+.pi{
+    width: 345px;
+    height: 37px;
+    margin: 20px;
+    margin-left: 113px;
+     border-radius: 5px;
+}
+.password{
+    width: 346px;
+    height: 37px;
+    margin: 20px;
+    margin-left: 113px;
+    border-radius:5px;
+}
+.email{
+    width: 346px;
+    height: 37px;
+    margin: 20px;
+    margin-left: 113px;
+     border-radius:5px;
+}
+.confirmpassword{
+    width: 346px;
+    height: 37px;
+    margin-left:px;
+    position: absolute;
+    border-radius:5px;
+
+    margin: 20px 110px;
+}
+
+.con:hover{
+    background-color: #3a564c;
+    color: #fbfd5;
+    transition: background-color 0.2s,color 0.2s;
+    
+}
+.yo{ float: left;
+    margin-top:20%;
+    margin-left:7%;
+
+}
+.ht{
+    display: inline-block;
+    transform: scale(1.1);
+}
+.ht:hover{
+    transform: scale(1);
+}

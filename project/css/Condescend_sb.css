@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)), url('./img/pexels-wendy-wei-1714361.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    color: #FBF2D5;
+      
+}
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    font-size: 20px;
+    color:#000;    
+}
+.navi {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    transition: border-bottom 0.9s;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+    border: 3px solid #7FA99B;
+    display: inline-block;
+}
+.navi li a:link,
+.navi li a:visited {
+    text-decoration: none;
+    color: #FBF2D5;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;  
+    border-bottom: 0px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navi li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-left: 25px;
+}
+
+.navi li a:hover, 
+.navi li a:active{
+    border-bottom: 2px solid #7FA99B;
+}
+
+ul{
+
+    text-decoration: none;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 30px;
+}
+h2:after{
+    display: block;
+    background-color: #7FA99B;
+    height: 2px;
+    width: 100px;
+    content: '  ';
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.mar{
+    margin-top: 150px;
+}
+.fl{
+    float: right;
+}
+.fr{
+    float: left;
+    margin-bottom: 30px;
+}
+.name{
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    text-transform: uppercase;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50%;
+
+}
+
+.submit a{
+    list-style: none;
+    text-decoration: none;
+    color: #FBF2D5;
+    font-size: 40px;
+    border: 2px #7FA99B solid;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 200px;
+}
